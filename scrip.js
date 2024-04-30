@@ -1,40 +1,59 @@
 "use script"
 
 
-const age = 13;
-console.log(age);
+// 1
 
-const name = "сонька";
-console.log(name);
+let C = 87;
+F = 1.8 * C + 32;
+console.log(F);
 
-const number = 983;
-let plus = number + 10;
-console.log(plus)
+// 2
 
-const student = true;
-console.log(student);
+const day = 30;
+const hour = day * 24;
+const minutes = hour * 60;
+console.log(hour);
+console.log(minutes);
 
-const string = "сонька";
-console.log(string);
+// 3
 
-const MyNull = 0;
-console.log(MyNull);
+let hp = 200;
+hp -= 25;
+console.log(hp)
+let energy = 100;
+energy -= 50;
+console.log(energy);
 
-const user = prompt(`Введіть своє імʼя`);
-alert(`Ку<3 ${user}!`);
+// 4
 
-const change = confirm(`Так чи ні?`);
-if (change === true) {
-    alert("Дякую");
-} else {
-    alert("Дію відмінено!");
-}
+const price = 180;
+sold = price / 100 * 90;
+console.log(sold);
 
-alert(`Це може бути НЕБЕЗПЕЧНО`);
-const danger = confirm(`Ви впевнені?`);
+// 5
 
-if (danger === true) {
-    alert("Дякую за підтвердження");
-} else {
-    alert("Дію відмінено");
-}
+let floor = 15.1;
+console.log(Math.floor(floor));
+
+// 6
+
+let float = '4.9px';
+console.log(parseFloat(float));
+
+// 7
+
+let int = '9.25haha13';
+console.log(parseInt(int));
+
+// 8
+
+let a = 99;
+let b = 18;
+console.log(Math.round(Math.sqrt(a ** 2 + b ** 2)));
+
+// 9
+
+let number = 19;
+let text = '19 apples';
+console.log(parseInt(text));
+console.log(number.toString());
