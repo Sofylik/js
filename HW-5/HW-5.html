@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>1</h1>
+
+    <form>
+        <select id="drinks"
+                onchange="showChoice()">
+            <option value="coffee">Кава</option>
+            <option value="tea">Чай</option>
+            <option value="juice">Сік</option>
+        </select>
+    </form>
+
+    <h1>2</h1>
+
+    <input type="text"
+           id="inputDay"
+           placeholder="День тижня" />
+    <button onclick="checkDays()">Перевірка</button>
+
+    <h1>3</h1>
+
+    <input type="number"
+           id="inputMonth"
+           placeholder="Введіть номер місяця" />
+    <button onclick="checkMonth()">Перевірка</button>
+
+    <h1>4</h1>
+
+    <input type="number"
+           id="inputMonthDay"
+           placeholder="Введіть номер місяця" />
+    <button onclick="checkMonthDay()">Перевірка</button>
+
+    <h1>5</h1>
+
+    <input type="text"
+           id="inputColor"
+           placeholder="Введіть колір" />
+    <button onclick="checkColor()">Перевірка</button>
+
+    <h1>6</h1>
+
+    <input type="number"
+           id="firstNumber" />
+    <select id="chooseOperation">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+    </select>
+    <input type="number"
+           id="secondNumber" />
+    <button onclick="calculate()">Обчислити</button>
+
+    <script src="./HW-5.js"></script>
+</body>
+
+</html>
