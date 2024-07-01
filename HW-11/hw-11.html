@@ -2,13 +2,49 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta Title="viewport"
+          content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 </head>
 
 <body>
+
+    <p>Баланс: <span id="balance"></span></p>
+    <button onclick="deposit()">Поповнити</button>
+    <button onclick="withdraw()">Отримати</button>
+
+    <input id="temperature"
+           type="number"
+           placeholder="temperature" />
+    <button onclick="checkTemp()">day</button>
+
+
+    <input type="email"
+           id="email"
+           placeholder="email" />
+    <input type="text"
+           id="password"
+           placeholder="password" />
+    <button onclick="checkInfo()">check</button>
+
+
+    <input type="email"
+           id="email2"
+           placeholder="@gmail.com" />
+    <input type="text"
+           id="password2"
+           placeholder="12345" />
+    <button onclick="checkSimilarity()">check</button>
+
+    <p id="title">Title:</p>
+    <p id="director">Director:</p>
+    <p id="year">Year:</p>
+    <p id="rating">Rating:</p>
+    <input type="number"
+           id="changeRating"
+           placeholder="raiting" />
+    <button onclick="updateMovie()">Update</button>
     <script src="./hw-11.js"></script>
 </body>
 
